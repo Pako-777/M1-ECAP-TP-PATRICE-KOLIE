@@ -14,7 +14,7 @@ import calendar
 import os
 
 # Chargement du jeu de données principal
-donnees = pd.read_csv("C:/Users/patri/Desktop/ECAP/M1/cours/python_avancé/cours-m1-ecap/datasets/data.csv")
+donnees = pd.read_csv("data.csv")
 
 # Sélection des colonnes utiles à l'analyse
 cols_utiles = ['Transaction_Date', 'Gender', 'Location', 'Product_Category',
