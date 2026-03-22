@@ -3,7 +3,6 @@ from dash import Dash, dcc, html, Input, Output
 import dash_bootstrap_components as dbc
 import plotly.graph_objects as go
 import pandas as pd
-import matplotlib.pyplot as plt
 import plotly.express as px
 import calendar
 
